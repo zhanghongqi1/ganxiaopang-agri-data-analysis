@@ -1,0 +1,9 @@
+pandas
+numpy
+pymysql
+sqlalchemy
+faker
+openpyxl
+matplotlib
+seaborn
+python-docx

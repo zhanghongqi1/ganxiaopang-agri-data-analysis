@@ -1,0 +1,42 @@
+# Python 运行产物
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# 虚拟环境（不入库）
+venv/
+.venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# 完整模拟数据不入库（只提交生成脚本与 data/sample 每表1000行以内样例）
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# 含密码的本地配置不入库（提交 db_config.example.py 模板）
+config/db_config.py
+
+# WorkBuddy 本地工作区数据（与本项目交付物无关）
+.workbuddy/
+
+# 运行日志含本地路径不入库（保留 analysis_results.json 与 *stats.json 统计结果）
+logs/*.log
+logs/.latest_pipeline_log
+
+# 项目策划书（含个人信息，不属于公开仓库交付物）
+*.docx
+!reports/*.docx
+
+# Office 临时文件
+~$*
+
+# 系统文件
+Thumbs.db
+.DS_Store

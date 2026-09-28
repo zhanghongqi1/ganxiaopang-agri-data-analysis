@@ -1,0 +1,55 @@
+{
+  "seed": 20240101,
+  "total_rows": 130438,
+  "rows": {
+    "dim_sku": 2100,
+    "dim_users": 20000,
+    "dim_suppliers": 60,
+    "dim_stores": 4,
+    "dim_warehouses": 2,
+    "fact_live_sessions": 624,
+    "fact_live_minute_traffic": 22200,
+    "fact_orders": 26630,
+    "fact_order_items": 39127,
+    "fact_b2b_orders": 600,
+    "fact_purchases": 750,
+    "fact_purchase_items": 1175,
+    "fact_warehouse_stock": 1840,
+    "fact_deliveries": 3600,
+    "fact_store_sales_daily": 11726
+  },
+  "gmv": {
+    "ecom": 3182401.42,
+    "b2b": 1514707.67,
+    "store": 1407600.41,
+    "total": 6104709.5,
+    "shares": [
+      0.5213,
+      0.2481,
+      0.2306
+    ]
+  },
+  "top3_category": {
+    "定西宽粉及薯制品": 1615468.64,
+    "甘肃生鲜水果": 1388470.79,
+    "高原夏菜及土豆": 998148.4
+  },
+  "top3_share": 0.6556,
+  "dirty_injected": {
+    "orders_重复行": 130,
+    "orders_省份缺失": 150,
+    "orders_金额异常": 90,
+    "orders_状态非法": 80,
+    "orders_时间格式错误": 120,
+    "users_年龄异常": 70,
+    "users_性别异常": 50,
+    "users_省份格式不一": 80,
+    "items_数量异常": 100,
+    "items_价格异常": 60,
+    "deliveries_损耗超重": 30,
+    "deliveries_时效为负": 20,
+    "store_sales_负销售额": 25,
+    "store_sales_重复行": 30
+  },
+  "generated_at": "2026-09-28 17:43:35"
+}

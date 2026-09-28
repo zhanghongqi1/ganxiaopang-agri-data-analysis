@@ -1,0 +1,29 @@
+{
+  "cleaned_at": "2026-09-28 17:43:38",
+  "dim_sku_毛利越界修正": 0,
+  "dim_users_年龄越界填充": 70,
+  "dim_users_性别非法填充": 50,
+  "dim_users_省份格式统一": 80,
+  "items_数量非正剔除": 100,
+  "items_价格异常回填": 60,
+  "items_成本异常回填": 0,
+  "orders_重复剔除": 130,
+  "orders_非法状态剔除": 27,
+  "orders_时间格式修复": 119,
+  "orders_金额异常重算": 90,
+  "orders_重算后仍异常剔除": 1,
+  "orders_省份缺失填充": 150,
+  "items_孤儿行剔除": 170,
+  "orders_无明细剔除": 34,
+  "deliveries_损耗超重截断": 30,
+  "deliveries_时效重算": 20,
+  "store_sales_重复剔除": 30,
+  "store_sales_非正销售额剔除": 25,
+  "after_cleaning": {
+    "fact_orders": 26349,
+    "fact_order_items": 38857,
+    "fact_store_sales_daily": 11671,
+    "paid_orders": 22324,
+    "ecom_gmv": 3167257.24
+  }
+}

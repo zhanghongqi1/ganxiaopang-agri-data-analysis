@@ -69,7 +69,7 @@ venv\Scripts\python scripts\01_generate_data.py
 | dim_suppliers / dim_stores / dim_warehouses | 60 / 4 / 2 | 供应商 / 门店（陇西、通渭、平凉、静宁）/ 仓库（2400㎡ 主仓 + 1000㎡ 中转仓） |
 | fact_live_sessions | 624 | 直播场次（2024-2025，每周约 6 场） |
 | fact_live_minute_traffic | 22,000+ | 直播分钟级流量（每 2 分钟采样） |
-| fact_orders / fact_order_items | 26,700+ / 42,900 | 电商订单及明细 |
+| fact_orders / fact_order_items | 26,349 / 38,857 | 电商订单及明细 |
 | fact_b2b_orders | 600 | 火锅餐饮/商超/特产店 B2B 供货 |
 | fact_purchases / fact_purchase_items | 750 / 1,200 | 采购单及明细 |
 | fact_warehouse_stock | 1,840 | 20 个核心 SKU 双周库存快照 × 2 仓 |
@@ -131,3 +131,7 @@ venv\Scripts\python scripts\run_all.py
 - `reports/甘小胖经营数据分析报告.md`：含背景、数据与口径、方法、图表、结论与可落地建议（可用 pandoc 一键转 Word）
 - `reports/figures/`：10 张全部分析图表（SimHei 中文）
 - `logs/`：analysis_results.json（核心指标与交叉校验结果）、全流程验证日志
+
+## License
+
+本项目代码以 [MIT License](LICENSE) 开源。再次提醒：仓库内全部数据为 **模拟数据**，仅用于方法复现，不代表真实经营结果。
